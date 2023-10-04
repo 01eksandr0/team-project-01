@@ -1,0 +1,60 @@
+<<<<<<< Updated upstream
+=======
+.footer {
+  width: 1440px;
+  height: 363px;
+  flex-shrink: 0;
+  border-top: 1px solid rgba(252, 249, 249, 0.1);
+}
+.footer-span {
+  color: #ecd979;
+  font-family: Manrope;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 74px;
+  letter-spacing: -1.92px;
+}
+.footer-text {
+  color: #fcf9f9;
+  font-family: Manrope;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 74px; /* 115.625% */
+  letter-spacing: -1.92px;
+  margin-bottom: 40px;
+  margin-left: 100px;
+  margin-top: 175px;
+}
+.footer-copirate {
+  width: 754px;
+}
+.nav-link {
+  color: #fcf9f9;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+  text-transform: uppercase;
+}
+.footer-img {
+  display: flex;
+  width: 595px;
+  height: 528px;
+  padding: 0px;
+
+  margin-left: 944px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+.header-nav-list {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 25px;
+  margin-top: 40px;
+  margin-left: 100px;
+}
+>>>>>>> Stashed changes
