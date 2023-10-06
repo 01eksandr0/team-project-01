@@ -84,7 +84,13 @@
 .submit-order-arrow:focus {
   border-color: #ecd979;
 }
-
+.icon-order {
+  transition: transform 250ms ease-in-out;
+}
+.submit-order-arrow:hover .icon-order,
+.submit-order-arrow:focus .icon-order {
+  transform: rotate(28deg);
+}
 @media screen and (max-width: 767px) {
   .img-container {
     display: none;

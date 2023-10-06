@@ -28,7 +28,17 @@
 .yellow-text {
   color: var(--white, #ecd979);
 }
-
+.hero-icon {
+  animation: spin 1000s linear;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(12000deg);
+  }
+}
 .hero-btn {
   color: var(--white, #fcf9f9);
   font-style: normal;
@@ -50,7 +60,14 @@
   border: 1px solid rgba(252, 249, 249, 0.1);
   transition: border-color 250ms ease-in-out;
 }
-
+.hero-btn-icon {
+  transition: transform 250ms ease-in-out;
+}
+.hero-btn:hover .hero-btn-icon,
+.hero-btn:focus .hero-btn-icon,
+.hero-btn:active .hero-btn-icon {
+  transform: rotate(28deg);
+}
 .hero-btn:hover,
 .hero-btn:focus {
   border-color: #ecd979;
